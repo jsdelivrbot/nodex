@@ -5,13 +5,12 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Server!')
+  response.send('rrrrrrrrrrrrrrroooooo!')
 })
 app.get('/id/:videoId', (request, response) => {
  const cc = request.params.videoId
-	
-	
-  response.send('rrrr!'+videoId)
+		
+  response.send('rrrr!'+cc)
 
  
 })
